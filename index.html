@@ -1,49 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<meta name="description" content="A simple snail sort visualizer algorithm">
-	<meta name="keywords" content="algorithm, snail sort, visualizer">
-	<title>SnailSort Visualizer | Netlify</title>
-	<link rel="stylesheet" href="css/style.css" />
-	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-	<div id="root">
-		<nav>
-			<div class="rowCols">
-				<label>
-					<div>
-						Rows:
-					</div>
-					<input type="number" placeholder="max 70" id="row" value="30" min="1" max="70" />
-				</label>
-				<label>
-					<div>
-						Cols:
-					</div>
-					<input type="number" placeholder="max 70" id="column" value="30" min="1" max="70" />
-				</label>
-				<label>
-					<div>
-						Speed:
-					</div>
-					<input type="number" placeholder="max 200" id="speed" value="10" min="1" max="20" />
-				</label>
-				<label>
-					<div>
-						Color:
-					</div>
-					<input type="color" value="green" id="color" />
-				</label>
-			</div>
-			<button id="visualize">Visualize</button>
-			<button id="clearBoard">Clear</button>
-			<script type="module" src="script/visualize.js"></script>
-		</nav>
-		<div id="board"></div>
-	</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      name="description"
+      content="A simple snail sort visualizer algorithm"
+    />
+    <meta name="keywords" content="algorithm, snail sort, visualizer" />
+    <title>SnailSort Visualizer | Netlify</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="root">
+      <nav>
+        <div class="rowCols">
+          <label>
+            <div>
+              Rows:
+            </div>
+            <input
+              type="number"
+              placeholder="max 70"
+              id="row"
+              value="30"
+              min="1"
+              max="70"
+            />
+          </label>
+          <label>
+            <div>
+              Cols:
+            </div>
+            <input
+              type="number"
+              placeholder="max 70"
+              id="column"
+              value="30"
+              min="1"
+              max="70"
+            />
+          </label>
+          <label>
+            <div>
+              Speed:
+            </div>
+            <input
+              type="number"
+              placeholder="max 200"
+              id="speed"
+              value="10"
+              min="1"
+              max="20"
+            />
+          </label>
+          <label>
+            <div>
+              Color:
+            </div>
+            <input type="color" value="green" id="color" />
+          </label>
+        </div>
+        <button id="visualize">Visualize</button>
+        <button id="clearBoard">Clear</button>
+        <script type="module" src="script/visualize.js"></script>
+      </nav>
+      <div id="board"></div>
+      <footer>
+        Develope | 2020
+        <a
+          href="https://github.com/darkcris1/snailsort-visualizer"
+          target="_blank"
+        >
+          <img src="images/github-logo.png" width="20" height="20" alt="" />
+        </a>
+      </footer>
+    </div>
+  </body>
 </html>
