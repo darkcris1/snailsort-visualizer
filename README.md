@@ -1,7 +1,9 @@
-#Snail Sort Visualizer
+# Snail Sort Visualizer
 
-Try it on
+Try it on https://snailsort-visualizer.netlify.app/
 
-### Preview
+> HTML / CSS / Javascript
 
-![Website Preview](front-page.png)
+## Preview
+
+![Website Preview](images/front-page.png)
